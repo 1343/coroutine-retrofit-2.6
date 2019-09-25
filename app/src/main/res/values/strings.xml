@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">USER LIST</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="save">Add user</string>
+    <string name="edit_user">Edit user</string>
+    <string name="add_user">Add user</string>
+    <string name="no_user_found">No user found</string>
+</resources>
