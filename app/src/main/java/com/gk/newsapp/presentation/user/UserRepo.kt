@@ -31,7 +31,7 @@ open class UserRepo : BaseRepo() {
             return false
 
         }
-        if (user.email!!.isValidEmailAddress()) {
+        if (!user.email!!.isValidEmailAddress()) {
             mutableLiveData.postValue("User email is not valid")
             return false
 
